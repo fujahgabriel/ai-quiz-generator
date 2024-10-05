@@ -13,7 +13,7 @@ The AI Quiz Generator is a tool designed to create quizzes based on various para
 1. **Clone the Repository**:
     ```bash
     git clone https://github.com/fujahgabriel/ai-quiz-generator.git
-    cd ai-quiz-generator/nextjs
+    cd ai-quiz-generator/
     ```
 
 2. **Install Dependencies**:
