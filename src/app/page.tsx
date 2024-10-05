@@ -178,7 +178,7 @@ export default function Home() {
               <h2 className="text-center text-2xl sm:text-3xl font-bold">
                 Questions
               </h2>
-              <div className="flex h-[85%] overflow-y-scroll py-4">
+              <div className="flex justify-center items-center h-[85%] overflow-y-scroll py-4">
                 <Questions questions={questionsList} />
               </div>
             </>
