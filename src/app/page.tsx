@@ -133,12 +133,13 @@ export default function Home() {
                   htmlFor="question"
                   className="text-sm sm:text-base text-gray-600 dark:text-gray-300"
                 >
-                  Enter your text: <span className="text-red-500">*</span>
+                  Area of subject: <span className="text-red-500">*</span>
                 </label>
                 <textarea
                   name="question"
                   id="question"
                   required
+                  placeholder="Enter your question here e.g. Mathematics, Science, History, etc."
                   value={question}
                   disabled={loading}
                   onChange={(e) => setQuestion(e.target.value)}
