@@ -84,7 +84,7 @@ const Questions: React.FC<QuestionsProps> = ({ questions }) => {
           </Button>
           <Button
             onClick={(e: any) => handleSubmit(e)}
-            className="bg-amber-700 p-2 rounded text-sm font-semibold"
+            className="bg-orange-700 p-2 rounded text-sm font-semibold"
           >
             Submit Answers
           </Button>
