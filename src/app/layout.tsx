@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import { Toaster } from "react-hot-toast";
+import { Analytics } from "@vercel/analytics/react"
+
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -44,6 +46,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <Analytics />
         <Toaster
           position="top-right"
           reverseOrder={false}
@@ -55,7 +58,6 @@ export default function RootLayout({
               color: "var(--foreground)",
             },
           }}
-        
         />
       </body>
     </html>

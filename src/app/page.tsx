@@ -186,7 +186,7 @@ export default function Home() {
         </div>
       </div>
       {/* Footer */}
-      <footer className="flex  flex-wrap items-center justify-center text-xs">
+      <footer className="flex  flex-wrap items-center justify-center text-xs py-2">
         &copy; {new Date().getFullYear()} AI Quiz Generator. All rights
         reserved.
       </footer>
