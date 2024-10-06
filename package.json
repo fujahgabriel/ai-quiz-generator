@@ -1,5 +1,10 @@
 {
   "name": "ai-quiz-generator",
+  "author": {
+    "name": "Gabriel Ajenifuja",
+    "email": "fujahgabriel@gamil.com",
+    "url": "https://twitter.com/fujahgabriel"
+  },
   "version": "0.1.0",
   "private": true,
   "scripts": {
