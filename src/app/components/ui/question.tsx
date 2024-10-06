@@ -50,7 +50,7 @@ const Questions: React.FC<QuestionsProps> = ({ questions }) => {
   };
 
   return (
-    <div className="grid grid-cols-1 gap-4 px-4 py-2">
+    <div className="grid grid-cols-1 gap-4 px-4 py-2 md:h-full">
       {questions.map((q: any, i: number) => (
         <div key={i} className="bg-gray-100 dark:bg-slate-800 p-4 rounded">
           <h3 className="text-sm sm:text-lg font-medium py-2">{q?.question}</h3>

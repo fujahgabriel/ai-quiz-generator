@@ -160,7 +160,7 @@ export default function Home() {
         </div>
 
         {/* Questions */}
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-col gap-8 md:h-[95vh]">
           {loading ? (
             <>
               <div className="animate-pulse h-42 bg-gray-200 dark:bg-slate-800 rounded mt-1 p-4">
@@ -178,7 +178,7 @@ export default function Home() {
               <h2 className="text-center text-2xl sm:text-3xl font-bold">
                 Questions
               </h2>
-              <div className="flex justify-center items-center h-[85%] overflow-y-scroll py-4">
+              <div className="flex justify-center items-center overflow-y-scroll py-4">
                 <Questions questions={questionsList} />
               </div>
             </>
